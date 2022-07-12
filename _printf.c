@@ -37,9 +37,12 @@ int _printf(const char *format, ...)
 		if (format[i + 1] == '\0')
 			return (-1);
 
-		f = _identifiers(&format[i + 1], valist);if (f == -1 || f != 0)i++;
+		f = _identifiers(&format[i + 1], valist);
+		if (f == -1 || f != 0)
+            i++;
 
-		if (f > 0)count += f;
+		if (f > 0)
+            count += f;
 
 		if (f == 0)
 		{
