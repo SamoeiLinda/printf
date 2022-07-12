@@ -6,6 +6,7 @@
 * @format: list of argument types passed to the function
 * Return: number of characters printed
 */
+
 int _printf(const char *format, ...)
 {
 	unsigned int i = 0;
@@ -39,10 +40,10 @@ int _printf(const char *format, ...)
 
 		f = _identifiers(&format[i + 1], valist);
 		if (f == -1 || f != 0)
-            i++;
+			i++;
 
 		if (f > 0)
-            count += f;
+			count += f;
 
 		if (f == 0)
 		{
