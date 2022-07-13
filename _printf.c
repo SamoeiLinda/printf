@@ -1,7 +1,6 @@
+extern int make_iso_compilers_happy;
 #include "main.h"
 #include<stdio.h>
-
-extern int make_iso_compilers_happy;
 
 /**
  *  * _printf - Produces output according to a format
