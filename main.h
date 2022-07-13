@@ -32,6 +32,8 @@ typedef struct print
 	int (*f)(va_list);
 } print_t;
 
+typedef int make_iso_compilers_happy;
+
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_c(va_list c);

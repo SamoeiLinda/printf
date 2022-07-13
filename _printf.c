@@ -1,5 +1,3 @@
-typedef int make_iso_compilers_happy;
-
 #include "main.h"
 #include<stdio.h>
 
