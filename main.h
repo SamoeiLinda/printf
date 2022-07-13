@@ -6,9 +6,6 @@
 #include <stdio.h>
 #include <string.h>
 #include<unistd.h>
-
-extern int make_iso_compilers_happy;
-
 #include <limits.h>
 
 /**
@@ -18,7 +15,7 @@ extern int make_iso_compilers_happy;
 int main(void)
 {
 	int len, len2;
-	char x,y;
+	char x[50],y[50];
 
 	printf("Let's print a simple sentence.\n");
 	scanf("%c" , &x);
@@ -26,6 +23,8 @@ int main(void)
 	scanf("%c" , &y);
 	len = strlen(x);
 	len2 = strlen(y);
+	fflush(stdout);
+
 	if (len != len2)
 	{
 		printf("Lengths differ.\n");
