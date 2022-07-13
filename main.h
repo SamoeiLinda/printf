@@ -9,32 +9,7 @@
 #include <limits.h>
 
 extern int make_iso_compilers_happy;
-
-/**
- *  * main - Entry point
- * Return: 0 on success, error code otherwise
- */
 int main(void)
-{
-	int len, len2;
-	char x[50],y[50];
-
-	printf("Let's print a simple sentence.\n");
-	scanf("%c" , &x);
-	printf("Let's print a simple sentence.\n");
-	scanf("%c" , &y);
-	len = strlen(x);
-	len2 = strlen(y);
-	fflush(stdout);
-
-	if (len != len2)
-	{
-		printf("Lengths differ.\n");
-		fflush(stdout);
-		return (1);
-	}
-	return (0);
-}
 
 /**
  *  * struct flags - struct containing flags to "turn on"
