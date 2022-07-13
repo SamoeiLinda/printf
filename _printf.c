@@ -9,7 +9,7 @@
 static int (*check_for_specifiers(const char *format))(va_list)
 {
 	unsigned int i;
-	print_t p[] = {
+	print_t §p[] = {
 		{"c", print_c},
 		{"s", print_s},
 		{"i", print_i},

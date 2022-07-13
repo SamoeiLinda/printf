@@ -23,7 +23,7 @@ typedef struct flags
 	int plus;
 	int space;
 	int hash;
-};
+}
 
 /**
  *  * struct print - structure for printing various types
@@ -34,7 +34,7 @@ typedef struct print
 {
 	char *t;
 	int (*f)(va_list);
-};
+}
 
 int _putchar(char c);
 int _printf(const char *format, ...);
