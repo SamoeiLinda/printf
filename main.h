@@ -8,6 +8,8 @@
 #include<unistd.h>
 #include <limits.h>
 
+extern int make_iso_compilers_happy;
+
 /**
  *  * main - Entry point
  * Return: 0 on success, error code otherwise
