@@ -19,7 +19,7 @@ int main(void)
 	int len, len2;
 	char x[50],y[50];
 
-	printf("Let's print a simple sentence.\n");
+	_printf("Let's print a simple sentence.\n");
 	scanf("%c" , &x);
 	printf("Let's print a simple sentence.\n");
 	scanf("%c" , &y);
