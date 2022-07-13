@@ -9,14 +9,9 @@
 int main(void)
 {
 	int len, len2;
-	char x[50], y[50];
 
 	len = _printf("Let's print a simple sentence.\n");
-	scanf("%c", &x);
 	len2 = printf("Let's print a simple sentence.\n");
-	scanf("%c", &y);
-	len = strlen(x);
-	len2 = strlen(y);
 	fflush(stdout);
 	if (len != len2)
 	{
