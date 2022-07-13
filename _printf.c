@@ -2,10 +2,9 @@
 
 /**
  *  * _printf - pritns out a formatted string
- *   * @format: the string to be formatted
- *    *
- *     * Return: the length of the string
- *      */
+ * @format: the string to be formatted
+ * Return: the length of the string
+ */
 
 int _printf(const char *format, ...)
 {
