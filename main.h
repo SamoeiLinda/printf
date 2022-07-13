@@ -15,14 +15,24 @@ extern int make_iso_compilers_happy;
  *  * main - Entry point
  * Return: 0 on success, error code otherwise
  */
-	int main(void)
+int main(void)
+{
+	int len, len2;
+	char x,y;
 
-	len = _printf("%c, %s, %%, %z, % , awesome, %d, %i, %o, %b, %r, %R\n", 'h', "Hello you", 525600, -525600, 32767, 4242, "He\
-			  llo world", "Hello world");
-
-	_printf("Len: %d\n", len);
-
-	 return 0;
+	printf("Let's print a simple sentence.\n");
+	scanf("%c" , &x);
+	printf("Let's print a simple sentence.\n");
+	scanf("%c" , &y);
+	len = strlen(x);
+	len2 = strlen(y);
+	if (len != len2)
+	{
+		printf("Lengths differ.\n");
+		fflush(stdout);
+		return (1);
+	}
+	return (0);
 }
 
 /**
