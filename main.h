@@ -18,8 +18,9 @@ int main(void)
 {
 	int len, len2;
 
-	len = dprintf("Hello world.\n");
+	len = _printf("Hello world.\n");
 	len2 = printf("Hello world.\n");
+
 	fflush(stdout);
 	if (len != len2)
 	{
