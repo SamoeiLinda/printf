@@ -9,7 +9,7 @@
 #include <limits.h>
 
 extern int make_iso_compilers_happy;
-int main(void)
+int main(void);
 
 /**
  *  * struct flags - struct containing flags to "turn on"
@@ -23,7 +23,7 @@ typedef struct flags
 	int plus;
 	int space;
 	int hash;
-} flags_t;
+};
 
 /**
  *  * struct print - structure for printing various types
@@ -34,7 +34,7 @@ typedef struct print
 {
 	char *t;
 	int (*f)(va_list);
-} print_t;
+};
 
 int _putchar(char c);
 int _printf(const char *format, ...);
