@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include<stdio.h>
 /**
  *  * _printf - pritns out a formatted string
  * @format: the string to be formatted
