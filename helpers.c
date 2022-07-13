@@ -2,10 +2,9 @@
 
 /**
  *  * print_number - prints out an integer
- *   * @n: the integer to be printed out
- *    *
- *     * Return: Always Successful (0)
- *      */
+ * @n: the integer to be printed out
+ * Return: Always Successful (0)
+ */
 
 int print_number(int n)
 {
