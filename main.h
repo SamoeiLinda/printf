@@ -7,6 +7,8 @@
 #include <string.h>
 #include<unistd.h>
 
+extern int make_iso_compilers_happy;
+
 /**
  *  * struct flags - struct containing flags to "turn on"
  * when a flag specifier is passed to _printf()
