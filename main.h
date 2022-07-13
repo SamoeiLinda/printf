@@ -18,8 +18,8 @@ int main(void)
 {
 	int len, len2;
 
-	len = dprintf("Let's print a simple sentence.\n");
-	len2 = printf("Let's print a simple sentence.\n");
+	len = dprintf("Hello world.\n");
+	len2 = printf("Hello world.\n");
 	fflush(stdout);
 	if (len != len2)
 	{
