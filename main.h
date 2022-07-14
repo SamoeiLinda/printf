@@ -8,6 +8,8 @@
 #include<unistd.h>
 #include <limits.h>
 
+int main(void);
+
 /* utils.c */
 int _strlen(const char *);
 int print(char *);
