@@ -8,9 +8,6 @@
 #include<unistd.h>
 #include <limits.h>
 
-extern int make_iso_compilers_happy;
-int main(void);
-
 /* utils.c */
 int _strlen(const char *);
 int print(char *);
